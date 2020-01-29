@@ -31,8 +31,8 @@ Protip: Name your rectangles if you are planning to export them into a layer sty
 
 ![name-my-color](https://github.com/carlosflrg/name-my-color/blob/master/images/01.png?raw=true)
 
-2. Select the rectangle color you with to name.
-Disclousure: Only works with 1 single layer.
+2. Select the color rectangle you wish to name.
+Disclosure: Only works with 1 single layer.
 
 ![name-my-color](https://github.com/carlosflrg/name-my-color/blob/master/images/02.png?raw=true)
 
@@ -48,7 +48,7 @@ Disclousure: Only works with 1 single layer.
 
 ![name-my-color](https://github.com/carlosflrg/name-my-color/blob/master/images/05.png?raw=true)
 
-6. If successful a message like this will be shown at the buttom of your screen.
+6. If successful a message like this will be shown at the bottom of your screen.
 
 ![name-my-color](https://github.com/carlosflrg/name-my-color/blob/master/images/06.png?raw=true)
 
