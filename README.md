@@ -1,4 +1,4 @@
-# Name My Color 🎨
+# Name My Color (Beta) 🎨
 
 ![name-my-color](https://github.com/carlosflrg/name-my-color/blob/master/NameMyColor.sketchplugin/Contents/Sketch/icon.png?raw=true)
 
