@@ -34,7 +34,7 @@ Protip: Name your rectangles if you are planning to export them into a layer sty
 2. Select the rectangle color you with to name.
 Disclousure: Only works with 1 single layer.
 
-![name-my-color](https://github.com/carlosflrg/name-my-color/blob/master/images/03.png?raw=true)
+![name-my-color](https://github.com/carlosflrg/name-my-color/blob/master/images/02.png?raw=true)
 
 3. Run the plugin from the Plugins Menu or use Control + Command + n
 
