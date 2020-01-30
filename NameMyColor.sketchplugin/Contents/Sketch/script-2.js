@@ -1671,7 +1671,7 @@ if (selectedCount === 0) {
   
   
   let selectedLayer = selectedLayers.forEach
-  let colorLayer = layer.style.fills[0].color
+  let colorLayer = layer.style.borders[0].color
   let x = layer.frame.x
   let y = layer.frame.y
   let w = layer.frame.width
