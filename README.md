@@ -2,7 +2,7 @@
 
 ![name-my-color](https://github.com/carlosflrg/name-my-color/blob/master/NameMyColor.sketchplugin/Contents/Sketch/icon.png?raw=true)
 
-Plugin for Sketch to name to the closest matching color. <a href="https://github.com/carlosflrg/name-my-color/archive/master.zip/">Download Here</a>
+Plugin for Sketch to name to the closest matching color. <a href="https://github.com/carlosflrg/name-my-color/raw/master/versions/name-my-color-0.2.zip">Download Here</a>
 
 Give your colors unique names. Generates labels for the Color Name, Hexcode and changes the name of the selected layer.
 This plugin was based on Chirag Mehta's project: Name That Color you can find the Javascript library here: http://chir.ag/projects/name-that-color
