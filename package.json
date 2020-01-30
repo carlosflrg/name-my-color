@@ -1,0 +1,24 @@
+{
+  "name": "name-my-color",
+  "description": "Give your colors unique names. Generates labels for the Color Name, Hexcode and changes de layer name to match de color",
+  "version": "1.0.0",
+  "repository": "https://github.com/carlosflrg/name-my-color",
+  "engines": {
+    "sketch": ">=49.0"
+  },
+  "skpm": {
+    "name": "name-my-color",
+    "manifest": "NameMyColor.sketchplugin/Contents/Sketch/manifest.json",
+    "main": "NameMyColor.sketchplugin"
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.7.0"
+  },
+  "author": "carlosflrg <38139259+carlosflrg@users.noreply.github.com>"
+}
