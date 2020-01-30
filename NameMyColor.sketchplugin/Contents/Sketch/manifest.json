@@ -5,13 +5,24 @@
   "commands" : [
     {
       "script" : "script.js",
-      "name" : "Name it!",
+      "name" : "Name your fill!",
       "shortcut": "ctrl cmd n",
       "handlers" : {
         "run" : "onRun"
       },
       "identifier" : "com.bohemiancoding.sketch.runscriptidentifier"
+    },
+
+    {
+      "script" : "script-2.js",
+      "name" : "Name your border! ",
+      "shortcut": "ctrl cmd b",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "com.bohemiancoding.sketch.runscriptidentifier"
     }
+
   ],
   "menu" : {
     "title" : " 🎨 Name My Color",
@@ -20,8 +31,8 @@
     ]
   },
   "identifier" : "com.example.sketch.088ca5e8-c3ac-4e86-92d1-7be3a479df5e",
-  "version" : "0.2",
+  "version" : "0.3",
   "description" : "Give your colors unique names. Generates labels for the Color Name, Hexcode and changes the name of the selected layer. Created for the Anexinet Design Team",
   "authorEmail" : "cflores@anexinet.com",
-  "name" : "Name My Color (Beta) 🎨"
+  "name" : "Name My Color 🎨"
 }
