@@ -31,8 +31,7 @@ Protip: Name your rectangles if you are planning to export them into a layer sty
 
 ![name-my-color](https://github.com/carlosflrg/name-my-color/blob/master/images/01.png?raw=true)
 
-2. Select the color rectangle you wish to name.
-Disclosure: Only works with 1 single layer.
+2. Select the color layers you wish to name.
 
 ![name-my-color](https://github.com/carlosflrg/name-my-color/blob/master/images/02.png?raw=true)
 
@@ -43,10 +42,6 @@ Disclosure: Only works with 1 single layer.
 4. The layer will be renamed to match the closest name in the library, the name label will be placed under the rectangle layer and so will the hexcode#.
 
 ![name-my-color](https://github.com/carlosflrg/name-my-color/blob/master/images/04.png?raw=true)
-
-5. To apply to another layer, repeat the process. Select another layer and run the command.
-
-![name-my-color](https://github.com/carlosflrg/name-my-color/blob/master/images/05.png?raw=true)
 
 6. If successful a message like this will be shown at the bottom of your screen.
 
@@ -59,6 +54,7 @@ Disclosure: Only works with 1 single layer.
 
 # Changelog
 * **0.1** - Created the project to work on the Anexinet Master Template.
+* **0.2** - Multiple Layer Selection and Automatic Updates.
 
 # Contact
 
