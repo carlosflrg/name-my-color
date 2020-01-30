@@ -1,4 +1,4 @@
-# Name My Color (Beta) 🎨
+# Name My Color 🎨
 
 ![name-my-color](https://github.com/carlosflrg/name-my-color/blob/master/NameMyColor.sketchplugin/Contents/Sketch/icon.png?raw=true)
 
@@ -11,7 +11,8 @@ This plugin was created to improve the design practices for the Anexinet Design 
 
 # Usage
 
-* control cmd n - Run Name My Color
+* control cmd n - Run Name My Color for fills
+* control cmd b - Run Name My Color for borders
 
 # Installation
 
