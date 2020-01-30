@@ -1,7 +1,7 @@
 {
   "author" : "Carlos Flores",
   "icon": "icon.png",
-  "appcast": "https://github.com/carlosflrg/name-my-color/appcast.xml",
+  "appcast": "https://raw.githubusercontent.com/carlosflrg/name-my-color/master/appcast.xml",
   "commands" : [
     {
       "script" : "script.js",

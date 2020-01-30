@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel>
 <title>Name My Color</title>
-<link>https://github.com/carlosflrg/name-my-color/appcast.xml</link>
+<link>https://raw.githubusercontent.com/carlosflrg/name-my-color/master/appcast.xml</link>
 <description>New Update with automatic updates</description>
 <language>en</language>
 <item>
-  <enclosure url="https://github.com/carlosflrg/name-my-color/versions/name-my-color-0.2.zip" sparkle:version="1.0"/>
+  <enclosure url="https://raw.githubusercontent.com/carlosflrg/name-my-color/master/versions/name-my-color-0.2.zip" sparkle:version="1.0"/>
 </item>
 </channel>
 </rss>
