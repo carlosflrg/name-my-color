@@ -1,5 +1,12 @@
-          var onRun = function(context) {
-          var ntc = {
+var sketch = require('sketch')
+var UI = require('sketch/ui')
+
+var document = sketch.getSelectedDocument()
+
+var selectedLayers = document.selectedLayers
+var selectedCount = selectedLayers.length
+
+var ntc = {
 
   init: function() {
     var color, rgb, hsl;
@@ -1652,101 +1659,79 @@
 
 }
 
-var sketch = require('sketch');
-let Text = sketch.Text;
-let document = sketch.getSelectedDocument()
-let page = document.selectedPage
-var selectedLayers = context.selection;
-var selectedCount = selectedLayers.count();
-var currentLayer = selectedLayers[0];
-
-
-var layer = sketch.getSelectedDocument().selectedLayers.layers[0];
-var layerColor = layer.style.fills[0].color;
-var layerName = layer.name
-let Artboard = sketch.Artboard
-
-var layerName = layerColor 
-
-var str= layerName;
-var newStr = str.substring(0, str.length - 2)
-
-
-
 ntc.init();
 
-var n_match  = ntc.name(newStr);
-var n_name   = n_match[1]; // This is the text string for the name of the match
 
-let selectedDocument = sketch.getSelectedDocument()
-let selectedPage = selectedDocument.selectedPage  
-let myArtboard = selectedPage.layers[0]
+if (selectedCount === 0) {
+  console.log('No layers are selected.')
+  UI.message('No layers are selected.')
+} else {
+  console.log('Selected colors:');
+  selectedLayers.forEach(function (layer, i) {
+  
+  
+  let selectedLayer = selectedLayers.forEach
+  let colorLayer = layer.style.fills[0].color
+  let x = layer.frame.x
+  let y = layer.frame.y
+  let w = layer.frame.width
+  let h = layer.frame.height
+  var colorHex = colorLayer.substring(0, colorLayer.length - 2)
+    
+  
+var n_match  = ntc.name(colorHex);
+n_name       = n_match[1];
+    
+layer.name = layer.name +""+n_name
 
-const lx = layer.frame.x
-const ly = layer.frame.y
-const he = layer.frame.height;
-const wi = layer.frame.width;
+var myHexName = new sketch.Text({
+    parent: layer.parent,
+    frame: layer.frame,
+    text: colorHex,
+    name: colorHex,
+    fixedWidth: 0,
+    style:{
+    alignment:0,
+    verticalAlignment:3,
+    kerning:0,
+    lineHeight:22,
+    paragraphSpacing:0,
+    textColor:"#333333",
+    fontSize:18,
+    fontFamily:"Lato",
+    fontWeight:"9",
+    borders: []
+    }, 
+  }
+)
+myHexName.frame.x = x
+myHexName.frame.y = y + h + 31
 
 var myTextLayer = new sketch.Text({
                    
           parent: layer.parent,
           frame: layer.frame,
-          text: (n_name),
-          name: (n_name),
+          text: n_name,
+          name: n_name,
           fixedWidth: 0,
           style:{
-            alignment:0,
-            verticalAlignment:3,
-            kerning:0,
-            lineHeight:18,
-            paragraphSpacing:0,
-            textColor:"#999999",
-            fontSize:15,
-            fontFamily:"Lato",
-            fontWeight:"9",
-            borders: []
-            
-          },
+          alignment:0,
+          verticalAlignment:3,
+          kerning:0,
+          lineHeight:18,
+          paragraphSpacing:0,
+          textColor:"#999999",
+          fontSize:15,
+          fontFamily:"Lato",
+          fontWeight:"9",
+          borders: []
+        },
  })
-myTextLayer.frame.x = lx 
-myTextLayer.frame.y = ly + he + 11
+myTextLayer.frame.x = x 
+myTextLayer.frame.y = y + h + 11
+   
+console.log(colorHex)
+  })
+}
 
-        ;
-
-
-var myHexName = new sketch.Text({
-                   
-          parent: layer.parent,
-          frame: layer.frame,
-          text: (newStr),
-          name: (newStr),
-          fixedWidth: 0,
-          style:{
-            alignment:0,
-            verticalAlignment:3,
-            kerning:0,
-            lineHeight:22,
-            paragraphSpacing:0,
-            textColor:"#333333",
-            fontSize:18,
-            fontFamily:"Lato",
-            fontWeight:"9",
-            borders: []
-          },    
-        })
-
-
-myHexName.frame.x = lx
-myHexName.frame.y = ly + he + 31
-
-
-var UI = require('sketch/ui')
-UI.message(n_name+' Color Named 🎨')
-
-var textLayer = document.selectedLayers.layers[0]
-textLayer.name = layer.name+""+(n_name)
-
-log (n_name+ " " + newStr + " created")
-
-          };
-          
+UI.message('Color Named 🎨')

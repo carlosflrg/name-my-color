@@ -19,7 +19,7 @@
     ]
   },
   "identifier" : "com.example.sketch.088ca5e8-c3ac-4e86-92d1-7be3a479df5e",
-  "version" : "0.1",
+  "version" : "0.2",
   "description" : "Give your colors unique names. Generates labels for the Color Name, Hexcode and changes the name of the selected layer. Created for the Anexinet Design Team",
   "authorEmail" : "cflores@anexinet.com",
   "name" : "Name My Color (Beta) 🎨",
