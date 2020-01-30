@@ -23,6 +23,10 @@ To find your plugins directory...
 1. In the Sketch menu, navigate to Plugins > Manage Plugins...
 2. Click the cog in the lower left of the plugins window, and click Reveal Plugins Folder
 
+# Demo
+
+![name-my-color](https://github.com/carlosflrg/name-my-color/blob/master/images/demo.gif?raw=true)
+
 
 # Tutorial
 
