@@ -1,6 +1,7 @@
 {
   "author" : "Carlos Flores",
   "icon": "icon.png",
+  "appcast": "https://github.com/carlosflrg/name-my-color/appcast.xml",
   "commands" : [
     {
       "script" : "script.js",
@@ -22,7 +23,5 @@
   "version" : "0.2",
   "description" : "Give your colors unique names. Generates labels for the Color Name, Hexcode and changes the name of the selected layer. Created for the Anexinet Design Team",
   "authorEmail" : "cflores@anexinet.com",
-  "name" : "Name My Color (Beta) 🎨",
-
-
+  "name" : "Name My Color (Beta) 🎨"
 }
