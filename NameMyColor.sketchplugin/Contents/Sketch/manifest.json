@@ -10,7 +10,7 @@
       "handlers" : {
         "run" : "onRun"
       },
-      "identifier" : "com.bohemiancoding.sketch.runscriptidentifier"
+      "identifier" : "name-fill"
     },
 
     {
@@ -20,14 +20,16 @@
       "handlers" : {
         "run" : "onRun"
       },
-      "identifier" : "com.bohemiancoding.sketch.runscriptidentifier"
+      "identifier" : "name-border"
     }
 
   ],
   "menu" : {
     "title" : " 🎨 Name My Color",
     "items" : [
-      "com.bohemiancoding.sketch.runscriptidentifier"
+      "name-fill",
+      "name-border"
+
     ]
   },
   "identifier" : "com.example.sketch.088ca5e8-c3ac-4e86-92d1-7be3a479df5e",
