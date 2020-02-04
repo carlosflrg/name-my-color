@@ -3,13 +3,10 @@
 <channel>
 <title>Name My Color</title>
 <link>https://raw.githubusercontent.com/carlosflrg/name-my-color/master/appcast.xml</link>
-<description>New Update with automatic updates</description>
+<description>1.0</description>
 <language>en</language>
 <item>
-  <enclosure url="https://raw.githubusercontent.com/carlosflrg/name-my-color/master/versions/name-my-color-0.3.zip" sparkle:version="2.0"/>
-</item>
-<item>
-  <enclosure url="https://raw.githubusercontent.com/carlosflrg/name-my-color/master/versions/name-my-color-0.2.zip" sparkle:version="1.0"/>
+  <enclosure url="https://raw.githubusercontent.com/carlosflrg/name-my-color/master/versions/name-my-color-1.0.zip" sparkle:version="1.0"/>
 </item>
 </channel>
 </rss>
